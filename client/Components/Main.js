@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 export default function Main() {
 
     return (
-      <div className="row">
-        <h1 className="col-md-4 col-offset-4">Dougal's Page</h1>
-        <div className="row">
+      <div>
+        <h1 className="well">Dougal's Page</h1>
+        <div>
           <p>Weclome to Dougal's page. If you're here, it means Dougal is lost.</p>
           <p>Please contact Dougal's parents Gabriela Medina & Stephen Costello</p>
           <p>Email: gmedina229@gmail.com or stephen.costello1991@gmail.com</p>
