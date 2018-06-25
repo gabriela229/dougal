@@ -1,5 +1,105 @@
-/* body {
-  background: url("../images/Dougal.jpg") no-repeat;
-  background-position: top left;
-  background-size: cover;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 0;
+  /* background-image: url('https://lel-localexposure.netdna-ssl.com/wp-content/uploads/sites/90/2016/03/wood-background.jpg?id=1200') */
+}
+
+/*Header------------------*/
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: grey;
+  opacity: .80;
+  width: 100vw;
+}
+
+.title {
+  float: left;
+  position: absolute;
+  align-self: center;
+  color: white;
+  font-size: 10vw;
+  font-family: fantasy;
+  width: 100vw;
+  text-align: center;
+}
+
+.description {
+  background-color: white;
+  border: solid black;
+  margin: 5vw;
+  padding: 5vw;
+  font-size: 2vw;
+}
+
+.header-video {
+  height: 100vh;
+}
+
+/* .row-header {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/dougalParkDown.png');
+
 } */
+
+/* @media (max-width: 1000px){
+  .row-header {
+    height: 60vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px){
+  .row-header {
+    height: 50vh;
+    width: 100%;
+  }
+} */
+/*
+@media (max-width: 500px){
+  .row-header {
+    height: 30vh;
+    width: 100%;
+  }
+} */
+
+
+/*------------------------*/
+
+
+/* Masonry ------*/
+
+.masonry {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 100vw;
+}
+
+.masonry-panel {
+  width: 25vw;
+  min-height: 12vh;
+  max-height: 12vh;
+  overflow: hidden;
+}
+
+
+
+.masonry-content {
+  max-width: 100%;
+}

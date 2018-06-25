@@ -1,27 +1,29 @@
 import React from 'react';
+import Collage from './collage'
 
 export default function Main() {
 
     return (
-      <div className="container">
-        <div className="row">
-          <h1 className="mx-auto">Dougal Costello</h1>
+      <div>
+        <div className="flex-grid">
+          <div className="col">
+            <h1 className="title">Dougal Costello</h1>
+            <video className="header-video" src="/../../public/images/dougalAtParkClip.mov" autoPlay loop muted />
+          </div>
         </div>
-        <div className="row">
-          <div className="col-sm-6">
-            <div card>
-              <img className="card-img" src="/../../public/images/Dougal.jpg" alt="Card image" />
+        <div className="flex-grid">
+          <div className="col">
+            <div className="description">
+              <p>Welcome to Dougal's page.</p>
+              <p>If you found Dougal, please contact his parents Gabriela Medina & Stephen Costello.</p>
+              <p>Email: gmedina229@gmail.com or stephen.costello1991@gmail.com</p>
+              <p>Phone: 516-532-4559 or 347-640-1321</p>
             </div>
           </div>
-          <div className="col-sm-6">
-            <div className="card">
-              <div className="card-body">
-                Welcome to Dougal's page. If you're here, it means Dougal is lost.
-                Please contact Dougal's parents Gabriela Medina & Stephen Costello
-                Email: gmedina229@gmail.com or stephen.costello1991@gmail.com
-                Phone: 516-532-4559 or 347-640-1321
-              </div>
-            </div>
+        </div>
+        <div className="flex-grid">
+          <div className="col">
+            <Collage />
           </div>
         </div>
       </div>
