@@ -1,2 +1,8 @@
-dist
-node_modules
+# Ignore all node_modules
+node_modules/*
+
+# Compiled JS
+dist/bundle.js
+
+# NPM errors
+npm-debug.log
