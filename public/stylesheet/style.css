@@ -42,13 +42,24 @@ body {
 .description {
   background-color: white;
   border: solid black;
-  margin: 5vw;
+  margin: 5vh 5vw;
   padding: 5vw;
   font-size: 2vw;
 }
 
 .header-video {
   height: 100vh;
+}
+
+.arrow {
+  position: absolute;
+  color: white;
+  font-size: 10vw;
+  font-family: fantasy;
+  width: 100vw;
+  text-align: center;
+  padding-top: 85vh;
+  padding-bottom: 5vh;
 }
 
 /* .row-header {
