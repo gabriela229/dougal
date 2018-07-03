@@ -1,5 +1,5 @@
 import React from 'react';
-import Collage from './Collage';
+import Collage from './collage';
 import About from './About';
 import Header from './Header';
 
