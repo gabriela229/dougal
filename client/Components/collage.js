@@ -6,40 +6,40 @@ export default function Collage() {
     return (
       <div className="masonry">
           <div className="masonry-panel">
-              <img className="masonry-content" src="../public/images/dougalCoatBoots.jpg"  />
+              <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalCoatBoots.jpg"  />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/Dougal.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/Dougal.jpg" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalParkDown.png" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalParkDown.png" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalTunnel.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalTunnel.jpg" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalPostVet.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalPostVet.JPG" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalRainyDay.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalRainyDay.JPG" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalSleepBed.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalSleepBed.jpg" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalSmile.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalSmile.JPG" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalSunbathing.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalSunbathing.JPG" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalUpsideDown.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalUpsidedown.JPG" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalSleepBed2.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalSleepBed2.jpg" />
           </div>
           <div className="masonry-panel">
-            <img className="masonry-content" src="../public/images/dougalWindow.jpg" />
+            <img className="masonry-content" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalWindow.JPG" />
           </div>
       </div>
     );
