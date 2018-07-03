@@ -1,7 +1,7 @@
 import React from 'react';
-import Collage from './Collage';
-import About from './About';
-import Header from './Header';
+import Collage from './Collage.js';
+import About from './About.js';
+import Header from './Header.js';
 
 export default function Main() {
 
@@ -19,6 +19,7 @@ export default function Main() {
         </div>
         <div className="flex-grid">
           <div className="col">
+            <Collage />
           </div>
         </div>
       </div>
