@@ -1,7 +1,7 @@
 import React from 'react';
-import Collage from './Collage.js';
-import About from './About.js';
-import Header from './Header.js';
+import Collage from './Collage';
+import About from './About';
+import Header from './Header';
 
 export default function Main() {
 
