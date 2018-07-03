@@ -6,6 +6,7 @@
 
 body {
   margin: 0 0;
+  font-family: 'Gaegu', cursive;
 }
 
 /*Header------------------*/
@@ -32,7 +33,6 @@ body {
   position: absolute;
   color: white;
   font-size: 10vw;
-  font-family: fantasy;
   width: 100vw;
   text-align: center;
   padding-top: 40vh;
@@ -44,7 +44,7 @@ body {
   border: solid black;
   margin: 5vh 5vw;
   padding: 5vw;
-  font-size: 2vw;
+  font-family: 'Gaegu', cursive;
 }
 
 .header-video {
