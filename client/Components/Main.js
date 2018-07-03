@@ -19,7 +19,6 @@ export default function Main() {
         </div>
         <div className="flex-grid">
           <div className="col">
-            <Collage />
           </div>
         </div>
       </div>
