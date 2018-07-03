@@ -28,8 +28,8 @@ export default class Header extends Component {
         <h1 className="title">Dougal Costello</h1>
         {/*<div className="arrow">\/</div>*/}
         {width <= 411 ?
-          <video className="header-video" src="/../../public/images/dougalAtParkClip.mov" autoPlay loop muted /> :
-          <video className="header-video-fullwidth" src="/../../public/images/dougalAtThePark.mp4" autoPlay loop muted />
+          <video className="header-video" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalAtParkClip.mov" autoPlay loop muted /> :
+          <video className="header-video-fullwidth" src="https://s3.us-east-2.amazonaws.com/dougalc/dougalAtThePark.mp4" autoPlay loop muted />
         }
 
       </div>
