@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .col {
@@ -39,6 +39,10 @@ body {
   padding-bottom: 40vh;
 }
 
+.description-col {
+  background-color: #5B8CC8;
+}
+
 .description {
   background-color: white;
   border: solid black;
@@ -51,16 +55,19 @@ body {
   height: 100vh;
 }
 
-.arrow {
+.header-video-fullwidth {
+  width: 100vw;
+}
+
+/* .arrow {
   position: absolute;
   color: white;
   font-size: 10vw;
-  font-family: fantasy;
   width: 100vw;
   text-align: center;
   padding-top: 85vh;
   padding-bottom: 5vh;
-}
+} */
 
 /* .row-header {
   height: 100vh;

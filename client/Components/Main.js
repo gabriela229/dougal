@@ -1,6 +1,7 @@
 import React from 'react';
-import Collage from './Collage'
-import About from './About'
+import Collage from './Collage';
+import About from './About';
+import Header from './Header';
 
 export default function Main() {
 
@@ -8,13 +9,11 @@ export default function Main() {
       <div>
         <div className="flex-grid">
           <div className="col">
-            <h1 className="title">Dougal Costello</h1>
-            <div className="arrow">\/</div>
-            <video className="header-video" src="/../../public/images/dougalAtParkClip.mov" autoPlay loop muted />
+            <Header />
           </div>
         </div>
         <div className="flex-grid">
-          <div className="col">
+          <div className="col description-col">
             <About />
           </div>
         </div>
