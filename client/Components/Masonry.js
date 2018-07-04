@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Collage() {
+export default function Masonry() {
 
     return (
       <div className="masonry">
