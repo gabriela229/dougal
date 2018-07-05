@@ -2,6 +2,7 @@ import React from 'react';
 import Masonry from './Masonry';
 import About from './About';
 import Header from './Header';
+import Location from './Location';
 
 export default function Main() {
 
@@ -22,6 +23,11 @@ export default function Main() {
             <Masonry />
           </div>
         </div>
+        <div className="flex-grid">
+        <div className="col">
+          <Location />
+        </div>
+      </div>
       </div>
     );
 }

@@ -6,3 +6,6 @@ dist/bundle.js
 
 # NPM errors
 npm-debug.log
+
+# Secrets
+secrets.js
