@@ -6,8 +6,8 @@ export default function Location (){
     <div>
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.GOOGLE_MAPS_KEY }}
-        defaultCenter={{lat: 59.95, lng: 30.33}}
-        defaultZoom={11}
+        defaultCenter={{lat:40.7440, lng:-74.0324}}
+        defaultZoom={15}
       >
       </GoogleMapReact>
     </div>
