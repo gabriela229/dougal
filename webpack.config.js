@@ -18,6 +18,6 @@ module.exports = {
   ]
 };
 if (process.env.NODE_ENV !== 'production') require('./secrets.js');
-if (process.env.NODE_ENV === 'production'){
-  process.env.key = JSON.parse(process.env.key);
-}
+// if (process.env.NODE_ENV === 'production'){
+//   process.env.key = JSON.parse(process.env.key);
+// }
