@@ -112,53 +112,6 @@ body {
   border: .2rem solid white;
 }
 
-/* @media (min-width: 500px){
-  .masonry-content {
-    height: 30vh;
-  }
-}
-@media (min-width: 580px){
-  .masonry-content {
-    height: 35vh;
-  }
-}
-@media (min-width: 650px){
-  .masonry-content {
-    height: 40vh;
-  }
-}
-@media (min-width: 730px){
-  .masonry-content {
-    height: 45vh;
-  }
-}
-@media (min-width: 800px){
-  .masonry-content {
-    height: 50vh;
-  }
-}
-@media (min-width: 900px){
-  .masonry-content {
-    height: 55vh;
-  }
-}
-@media (min-width: 1000px){
-  .masonry-content {
-    height: 60vh;
-  }
-} */
-/* @media (max-height: 400px) and (min-width: 800px){
-  .masonry-content {
-    height: 100vh;
-  }
-}
-@media (max-height: 800px) and (min-width: 800px){
-  .masonry-content {
-    height: 50vh;
-  }
-} */
-
-
 .masonry-content:nth-child(4n+1){
   width: 20%;
 }
@@ -172,4 +125,13 @@ body {
   width: 40%;
 }
 
+/*-----END Masonry-------------*/
 
+/*-----Map-------------*/
+
+#marker-img{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  max-width: 5rem;
+}
+/*-----END Map-------------*/

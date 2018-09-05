@@ -20,12 +20,12 @@ export default function Main() {
         </div>
         <div className="flex-grid">
           <div className="col">
-            <Masonry />
+            <Location />
           </div>
         </div>
         <div className="flex-grid">
         <div className="col">
-          <Location />
+          <Masonry />
         </div>
       </div>
       </div>
